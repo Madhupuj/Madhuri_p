@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunita's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sunita's MEDICO +</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="#Medicine reminder">Medicini Remainder</a></li>
+            <li><a href="#pillbox"> Regular Remainder</a></li>
+            <li><a href="#Balanced Diet">Balanced Diet</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="Medicine reminder">
+        <div class="container">
+            <h1 class="title">Medicine Reminder</h1>
+            <div id="medList" class="med-list"></div>
+            <div class="add-med">
+                <h2 class="subtitle">Add Medication</h2>
+                <input type="text" id="medName" class="med-input" placeholder="Medication Name" required>
+                <input type="time" id="medTime" class="med-input" required>
+                <button id="addMedBtn" class="add-btn">Add</button>
+            </div>
+        </div>
+
+        </section id="Remainder">
+        <h1>Regular Remainder </h1>
+        <section id="pillbox">
+            <h2>Pill Organizer</h2>
+            <p>Use a pill organizer to keep track of daily medications. Ensure each compartment is filled with the correct dosage for each day of the week.</p>
+            <img src="pillbox.jpg" alt="Pill Organizer" class="image">
+        </section>
+        <section id="reminders">
+            <h2>Set Reminders</h2>
+            <p>Set reminders on your phone or use medication reminder apps to help you remember to take your medications at the correct times.</p>
+            <img src="reminder.jpg" alt="Reminder" class="image">
+        </section>
+        <section id="dosages">
+            <h2>Understand Dosages</h2>
+            <p>Make sure you understand the proper dosages for each medication you take. Follow your doctor's instructions carefully to avoid any potential complications.</p>
+            <img src="dosage.jpg" alt="Dosage" class="image">
+        </section>
+        <section id="side-effects">
+            <h2>Potential Side Effects</h2>
+            <p>Be aware of potential side effects of your medications. If you experience any unusual symptoms, consult your doctor immediately.</p>
+            <img src="side_effects.jpg" alt="Side Effects" class="image">
+        </section>
+
+
+        <section id="Balanced Diet">
+            <h2>Guidelines for a Balanced Diet</h2>
+            <ul>
+                <li>Eat plenty of fruits and vegetables.</li>
+                <li>Incorporate whole grains into your meals, such as brown rice, quinoa, and whole wheat bread.</li>
+                <li>Include lean protein sources like chicken, fish, tofu, and legumes.</li>
+                <li>Choose healthy fats such as avocados, nuts, seeds, and olive oil.</li>
+                <li>Practice portion control to avoid overeating.</li>
+                <li>Stay hydrated by drinking plenty of water throughout the day.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            
+            <h2>Contact</h2>
+            <p>If you have any questions or suggestions, please feel free to contact us:</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sunita Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="remainder.js"></script>
+    <script src="remainder.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

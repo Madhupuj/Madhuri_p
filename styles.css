@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 8jikpx;
+}
+main{
+    background-color: rgb(202, 239, 239);
+}
+header {
+    
+    background-image: url('medicin.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #e8eaed;
+    color: #ebeff2;
+    text-align: center;
+    padding: 100px;
+}
+header h1 {
+    font-size: 80px;
+    margin-top: 1px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0eaea;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    background-image: url('remainder.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #e8eaed;
+    color: #091238;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 1px;
+}
+
+.title {
+    color: #0c1054;
+    font-size: 40px;
+}
+
+.subtitle {
+    color: #333;
+}
+
+.med-list {
+    margin-top: 20px;
+}
+
+.med-input {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-btn {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #050c3d;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
